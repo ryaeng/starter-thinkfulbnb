@@ -41,9 +41,14 @@ main img {
   flex-direction: column;
 }
 
+.group img {
+  width: 100%;
+}
+
 .item {
   flex: 1;
   margin: 10px;
+  margin-left: 0px;
 }
 
 .item-double {
