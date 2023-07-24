@@ -143,19 +143,37 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 800px) {
+@media all and (min-width: 480px) {
   header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 36px;
   }
 
   form {
-    display: inline-flex;
+    display: flex;
     width: 97.25%;
+    justify-content: space-evenly;
   }
 
   .form-row {
     flex-direction: column;
+  }
+
+  .form-row input {
+    flex: 1;
+  }
+
+  form > div {
+    display: flex;
+  }
+
+  div > button {
+    font-size: 18px;
     width: 100%;
   }
 
